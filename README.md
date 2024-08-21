@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://vincinchristmas.github.io/QRcodecomponent/)
 
 ## My process
 I started by recognizing all the possible block elements that I could start with. I set up all the elements, started from top to bottom in html. I went to the css and add the css reset that I am most familiar with. I then started to do the css from top to bottom. I had to guess the font size for the html element at least. I look at the style guide and the figma get the right colors.

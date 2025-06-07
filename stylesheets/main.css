@@ -1,93 +1,75 @@
+/* Reset and base styles */
 
-/* Reset styles */
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 	box-sizing: border-box;
-	transition: all ease-in-out 0.5s;
-  }
-
-  
-  /* Style for unclassed anchor tags */
-a:not([class]) {
-	text-decoration-skip-ink: auto;
-  }
-
-  /* Image and picture styles */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-  line-height: 0;
-}
-
-/* Input and button styles */
-button,
-input,
-select,
-textarea {
-  font: inherit;
-}
-
-/* Button styles */
-button {
-  all: unset;
-  cursor: pointer;
 }
 
 body {
-	background: hsl(212, 45%, 89%);
-	width: 100%;
 	font-family: 'Outfit', sans-serif;
-	margin: 0; 
-}
-
-.card {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: hsl(0, 0%, 100%);
-  width: 23.4375rem;
-  margin: 0 auto;
-  border-radius: 30px;
-}
-
-img {
-	display: block;
-	margin: 0 auto;
-	width: 100%;
+	background-color: hsl(212, 45%, 89%);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	padding: 1rem;
-	border-radius: 30px;
- }
+}
 
+/* Container styles */
+.container {
+	width: 100%;
+	max-width: 375px;
+	margin: 0 auto;
+}
+
+/* Card styles */
+.card {
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 1rem;
+	padding: 1rem;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1);	
+}
+
+.qr-code {
+	width: 100%;
+	border-radius: 0.5rem;
+	display: block;
+}
+
+.content {
+	padding: 1.5rem 1rem;
+	text-align: center;
+}
 
 h1 {
-	font-size: 1.775rem;
-	font-weight: 700;
-    text-align: center;
-	margin-top: 1rem;
-	line-height: 2.153rem;
 	color: hsl(218, 44%, 22%);
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
 }
 
-
-
 p {
-	margin: 0 auto;
+	color: hsl(216, 15%, 48%);
+	font-size: 1rem;
+	line-height: 1.4;
+}
+
+/* Attribution styles */
+.attribution {
+	font-size: 0.75rem;
 	text-align: center;
-	font-size: 0.8875rem;
-	font-weight: 400;
-	width: 15rem;
-	margin-top: 1.765rem;
-	padding-bottom: 3rem;
-	line-height: 1.322rem;
+	margin-top: 2rem;
 	color: hsl(216, 15%, 48%);
 }
 
+.attribution a {
+	color: hsl(228, 45%, 44%);
+	text-decoration: none;
+}
 
-	
-
-
+.attribution a:hover {
+	text-decoration: underline;
+}	
 

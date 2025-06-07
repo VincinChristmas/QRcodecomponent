@@ -26,7 +26,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Live Site URL: [Add live site URL here](https://vincinchristmas.github.io/QRcodecomponent/)
 
 ## My process
-I started by recognizing all the possible block elements that I could start with. I set up all the elements, started from top to bottom in html. I went to the css and add the css reset that I am most familiar with. I then started to do the css from top to bottom. I had to guess the font size for the html element at least. I look at the style guide and the figma get the right colors.
+The project has been done before, now it has been recently update with proper code. I started by creating the proper structure making sure that I meet the design requirements and could really implement the design. 
+
+I began by setting up the right html structure and making sure I found the right Google font(Outfit). It is semantic HTML that uses the right elements such as <main>, <article>, and <footer>
+
+ I then created a CSS file for styling and took the necessary steps to make the the page is reponsive. It is a responsive CSS layout that centers the card on the page, uses, the exact colors from the style guide, implements proper spacing and typography, makes the component responsive, and adds subtle shadows and rounded corners for a modern look. 
 
 ### Built with
 
@@ -37,8 +41,24 @@ I started by recognizing all the possible block elements that I could start with
 
 ### What I learned
 
-I got a chance to look at Figma for the first time and get used to learning about the design by observing it in figma, though without the dev tools option available for free in Figma, besides getting accuracy on colors, it doesn't seem to show much
+I have learned about semantic HTML by using proper semantic elements like <main>, <article>, and <footer> instead of generic <div> tags; and how this improves accessibility and helps search engines better understand content on the page. I have also learn how to follow a logical hierchy: main content → article → content sections.
 
+I have learned about the importance of a CSS reset and how it ensures consistent styling across browsers:
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+   I have learned how to make the website mobile-first and responsive:
+
+   .container {
+     width: 100%;
+     max-width: 375px;
+   }
+
+   I have also learned to use responsive font-sizing by using REM units.
 
 
 ## Author
